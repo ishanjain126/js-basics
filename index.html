@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Welcome to the basics of JS -->
+    <div id="root"></div>
+  </body>
+  <script src="./closure.js"></script>
+  <!-- <script src="./constructor_fn.js"></script> -->
+  <!-- <script src="./currying.js"></script> -->
+  <!-- <script src="./this.js"></script> -->
+  <!-- <script src="./prototype.js"></script> -->
+  <!-- <script src="./promises.js"></script> -->
+  <script>
+    const header = document.createElement("h1");
+    header.innerHTML = "Hello world";
+    const root = document.getElementById("root");
+    root.appendChild(header);
+    const content = document.createElement("p");
+    content.innerHTML =
+      "This is something which I am trying to do with the multiple github accounts.";
+    root.appendChild(content);
+  </script>
+</html>
